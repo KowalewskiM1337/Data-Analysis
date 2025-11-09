@@ -75,7 +75,14 @@ Ex: SELECT CONVERT(columnName, DATETIME); --> as mentioned above example
 
 
 
+// HAVING vs WHERE
 
+HAVING --> filters based of aggregated columns
+            comes after GROUP BY statement
+WHERE --> filters based of regular columns
+            comes before GROUP BY statement
+
+!!! The main problem is execution order of those statements which can cause errors in query !!!
 
 
 
