@@ -32,6 +32,103 @@ LOCATE('x', 'Alexander') --> locates character 'x' where it sits in 'Alexander' 
 
 CONCAT() --> concatenate strings
 
+// DATE
+
+NOW() --> current date + date time
+
+CURDATE() --> current date
+
+CURTIME() --> current time
+
+YEAR(NOW()) --> outputs only year from today's date
+
+DAYNAME() --> outputs name of the day of the given date
+
+// IF functions
+
+Syntax: IF(condition, if true do this, if false do this)
+
+Case statement: 
+
+CASE
+    WHEN ___ THEN ___
+    WHEN ___ THEN ___ (an so on, it's similar to if else...)
+    ELSE '...'
+END AS '...'
+
+
+
+CAST and CONVERT
+
+Ex: SELECT CAST("2025-01-01" AS DATETIME); --> converts string to datetime
+
+Ex: SELECT CAST(columnName, DATETIME); --> converts whole column to datetime
+
+Ex: SELECT CONVERT(columnName, DATETIME); --> as mentioned above example
+
+
+
+// GROUP BY
+
+1. Summaries the rows
+2. Often used with aggregate functions such as MAX, MIN, AVG etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
