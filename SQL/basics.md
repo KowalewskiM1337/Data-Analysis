@@ -94,6 +94,48 @@ syntax: GROUP BY _columnName_ WITH ROLLUP
 
 
 
+// JOINS
+
+- Are used to combine rows from two or more tables based on a related column
+- There are several types of JOINs in SQL:
+  - INNER JOIN
+  - OUTER JOIN
+  - CROSS JOIN
+  - SELF JOIN
+  - RIGHT JOIN
+  - LEFT JOIN
+
+
+1. INNER JOIN
+
+- Returns records that have matching values in both tables
+
+2. LEFT AND RIGHT JOIN
+
+- RIGHT JOIN: Returns all records from the right table, and the matched records from the left table
+- LEFT JOIN: Returns all records from the left table, and the matched records from the right table
+
+3. FULL (OUTER) JOIN
+
+- Returns all records from both tables
+- It's essentially LEFT JOIN and RIGHT JOIN combined
+
+4. SELF JOIN
+
+- Joins the table to itself
+- Has to have an alias to the table
+
+5. CROSS JOIN
+
+- Returns all possible combinations of all rows
+- There's no need of "ON" clause
+
+
+// JOIN vs UNION
+
+UNION --> used to combine the results of two or more SELECT statements into a single result set
+JOIN --> typically give a horizontal output, while UNIONs give a vertical output
+
 
 
 
